@@ -1,0 +1,67 @@
+.home {
+  height: calc(100vh - 68px);
+}
+.elements-parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.our-products h1 {
+  text-align: center;
+  padding: 30px;
+  color: blue;
+}
+
+.img-parent {
+  object-fit: cover;
+}
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card {
+  background-color: white;
+  box-shadow: 0 5px 8px black;
+  border-radius: 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.type {
+  color: #777;
+}
+.price {
+  color: blue;
+}
+
+.bscart {
+  color: steelblue;
+}
+@media only screen and (max-width: 738px) {
+  .elements-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .elements-parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+}

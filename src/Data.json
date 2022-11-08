@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "img": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "type": "AO1",
+        "price": 15000,
+        "quantity": 1 
+    },
+    {   
+        "id": 2,
+        "img": "https://img.freepik.com/free-psd/smartphone-mockup_1310-920.jpg?size=626&ext=jpg&ga=GA1.2.489202319.1659533835&semt=sph",
+        "type": "AO2",
+        "price": 18000,
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "img": "https://img.freepik.com/free-psd/modern-smart-phones-mockup_358694-36.jpg?size=626&ext=jpg&ga=GA1.2.489202319.1659533835&semt=sph",
+        "type": "AO3",
+        "price": 12000 ,
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "img": "https://img.freepik.com/free-photo/blank-phone-screen-purple-background_53876-143196.jpg?size=626&ext=jpg",
+        "type": "AO4",
+        "price": 11000 ,
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "img": "https://img.freepik.com/free-vector/isometric-mobile-phone-background-template_52683-7075.jpg?size=626&ext=jpg&ga=GA1.2.489202319.1659533835&semt=sph",
+        "type": "AO5",
+        "price": 17000,
+        "quantity": 1
+    },
+    {   
+        "id": 6,
+        "img": "https://img.freepik.com/free-vector/realistic-phones-different-views_52683-28436.jpg?size=626&ext=jpg&ga=GA1.2.489202319.1659533835&semt=sph",
+        "type": "AO6",
+        "price": 8000,
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "img": "https://images.unsplash.com/photo-1563452619267-bc16ef6cecec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODl8fG1vYmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        "type": "AO7",
+        "price": 6000,
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "img": "https://images.unsplash.com/photo-1544866092-1935c5ef2a8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxtb2JpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
+        "type": "AO8",
+        "price": 13000,
+        "quantity": 1
+    }
+]

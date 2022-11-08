@@ -1,0 +1,67 @@
+.modal-parent {
+  height: 100%;
+  width: 100%;
+  background-color: #17171771;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 800;
+  text-align: center;
+}
+.modal {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+  top: 50%;
+  left: 50%;
+  max-height: 60%;
+  background-color: white;
+  padding: 8px;
+}
+.modal .prod {
+  display: flex;
+  flex-direction: column;
+}
+.modal .prod h4 {
+  padding: 15px;
+}
+.modal .img-parent {
+  max-width: 250px;
+}
+.modal .img-parent img {
+  width: 100%;
+}
+.modal .prod p {
+  color: blue;
+  padding: 10px;
+}
+.modal .continue {
+  color: darkblue;
+  border: 1px solid darkblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.modal .back {
+  color: gray;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+@media only screen and (max-width: 738px) {
+  .modal .back,
+  .modal .continue {
+    padding: 5px 10px;
+  }
+  .modal .prod h4 {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .modal .back,
+  .modal .continue {
+    padding: 2px 4px;
+  }
+}
