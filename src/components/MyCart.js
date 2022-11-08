@@ -12,13 +12,13 @@ export default function MyCart(props) {
   ];
   return (
     <div className="cart" id="cart">
-      {props.cartData.length > 0 ? (
+      {cartData.length > 0 ? (
         <h2>Your Cart</h2>
       ) : (
         <h2>Your Cart Is Empty</h2>
       )}
-      <div className="info-parent">
-        {props.cartData.length > 0 &&
+      <div className="info-parent"> 
+        {cartData.length > 0 &&
           cartData.map((product) => {
             return (
               product.quantity > 0 && (
@@ -77,18 +77,18 @@ export default function MyCart(props) {
             );
           })}
       </div>
-      {props.cartData.length > 0 && (
+      {cartData.length > 0 && (
         <h4 className="total">
           <div>Total:</div>
           <div>
-            {props.cartData.reduce((prev, curr) => {
+            {cartData.reduce((prev, curr) => {
               return prev + Number(curr.quantity) * Number(curr.price);
             }, 0)}
           </div>
         </h4>
       )}
       <div className="clear-parent">
-        {props.cartData.length > 0 && (
+        {cartData.length > 0 && (
           <button onClick={props.Clear} className="clear">
             Clear Cart
           </button>
