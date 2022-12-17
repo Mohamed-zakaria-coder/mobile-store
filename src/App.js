@@ -13,6 +13,7 @@ let cartDataReduce = [
   ...getCartData.reduce((map, obj) => map.set(obj.id, obj), new Map()).values(),
 ];
 
+
 function App() {
   const [openModal, setOpenModal] = useState(false);
   const [data, setData] = useState([]);
@@ -108,7 +109,7 @@ function App() {
         />
         <Route
           path="product"
-          element={<Product data={data} myCart={myCart} />}
+          element={<Product data={data} myCart={myCart}/>}
         />
         <Route
           path="*"

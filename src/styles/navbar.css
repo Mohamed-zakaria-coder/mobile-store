@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  background-color: #aeaefa;
+  background-color: #2c2626;
   text-decoration: none;
 }
 .icon-parent {
@@ -15,6 +15,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 12px white;
 }
 .icon-parent span {
   margin-left: 5px;

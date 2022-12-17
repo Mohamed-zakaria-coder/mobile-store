@@ -24,7 +24,12 @@ const Product = (props) => {
                 <NavLink to="home">
                   <button className="back">Back To products</button>
                 </NavLink>
-                <button className="add" onClick={() => props.myCart(el.id)}>
+                <button
+                  className="add"
+                  onClick={() => {
+                    props.myCart(el.id);
+                  }}
+                >
                   Add To Cart
                 </button>
               </div>
