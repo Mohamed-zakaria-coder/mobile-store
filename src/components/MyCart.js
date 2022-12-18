@@ -38,22 +38,22 @@ export default function MyCart(props) {
                     </div>
                     <div className="quantity flex el-top">
                       <div className="btns-parent">
-                      <button
-                        className="plus sp"
-                        onClick={() => props.Increment(product.id)}
-                      >
-                        +
-                      </button>
-                      <div>{product.quantity}</div>
-                      <button
-                        className="minus sp"
-                        onClick={() => {
-                          props.Decrement(product.id);
-                          props.QuantityZero();
-                        }}
-                      >
-                        -
-                      </button>
+                        <button
+                          className="plus sp"
+                          onClick={() => props.Increment(product.id)}
+                        >
+                          +
+                        </button>
+                        <div>{product.quantity}</div>
+                        <button
+                          className="minus sp"
+                          onClick={() => {
+                            props.Decrement(product.id);
+                            props.QuantityZero();
+                          }}
+                        >
+                          -
+                        </button>
                       </div>
                     </div>
                   </div>
