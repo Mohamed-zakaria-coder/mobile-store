@@ -1,20 +1,19 @@
 import React from "react";
-import OurProducts from "../components/OurProducts";
+import Products from "../components/Products";
 import Data from "../Data.json";
 import "../styles/home.css";
 
 export default function Home(props) {
   const elements = Data.map((element) => {
     return (
-      <OurProducts
+      <Products
         key={element.id}
-        img={element.img}
+        img={element.img} 
         price={element.price}
         id={element.id}
         type={element.type}
         handleShow={props.handleShow}
         handleModal={props.handleModal}
-        myCart={props.myCart}
       />
     );
   });

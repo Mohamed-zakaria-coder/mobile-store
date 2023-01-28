@@ -5,14 +5,14 @@ export default function Modal(props) {
   return (
     <div className="modal-parent">
       <div className="modal">
-        {props.data.map((el) => {
+        {props.data.map((mobile) => {
           return (
-            <div className="prod" key={el.id}>
+            <div className="prod" key={mobile.id}>
               <h4>Item Added To Cart</h4>
               <div className="img-parent">
-                <img src={el.img} alt="" />
+                <img src={mobile.img} alt="" />
               </div>
-              <p>Price: {el.price}</p>
+              <p>Price: {mobile.price}</p>
               <button onClick={props.handleModal} className="continue">
                 Continue
               </button>
