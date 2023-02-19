@@ -25,7 +25,7 @@ img {
 }
 .card {
   background-color: white;
-  box-shadow: 0 5px 8px black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   transition: 1s;
   cursor: pointer;
